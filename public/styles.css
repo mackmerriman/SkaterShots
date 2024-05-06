@@ -1,0 +1,213 @@
+body {
+  font-family: andale mono, sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+button {
+  font-family: andale mono, sans-serif;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.hidden {
+  display: none;
+}
+
+.nft {
+  width: 100%;
+  height: auto;
+  outline: black;
+  outline-width: 5px;
+  outline-style: solid;
+  border-radius: 10px;
+}
+
+.item-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items to the start of the flex line */
+  margin-top: 75px;
+}
+
+.infodiv {
+  text-align: center;
+  background-color: lightgray;
+  outline: black;
+  outline-width: 5px;
+  outline-style: solid;
+  padding: 20px;
+  width: 75%;
+  border-radius: 10px;
+}
+
+.infodiv1 {
+  text-align: left;
+  background-color: lightgray;
+  outline: black;
+  outline-width: 5px;
+  outline-style: solid;
+  padding: 20px;
+  flex-direction: column;
+  width: 75%;
+  border-radius: 10px;
+}
+
+.shopdiv {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  outline: black;
+  outline-width: 5px;
+  outline-style: solid;
+  padding: 20px;
+  flex-direction: row;
+  width: 1500px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.itemsdiv {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  outline: black;
+  outline-width: 5px;
+  outline-style: solid;
+  padding: 20px;
+  flex-direction: row;
+  width: 1500px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.shop-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.shop-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.singleitem {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.collectionpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collectionflex {
+  display: flex;
+  flex-direction: column;
+}
+
+.infodiv-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.pack {
+  width: 200px;
+  height: auto;
+}
+
+.icon {
+  width: 50px;
+  height: auto;
+}
+
+.smallicon {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.mainicon {
+  width: 75px;
+  height: auto;
+  filter: invert(100%);
+  margin: 20px;
+}
+
+.titlediv {
+  margin: 100px;
+}
+
+.banner {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+}
+
+/* https://css-tricks.com/snippets/css/typewriter-effect/ */
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.05em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.05em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}

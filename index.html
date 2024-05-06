@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>SkaterShots NFT Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js'></script>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="images/mainicon.png" class="mainicon">
+        <h2>SkaterShots NFT Collection</h2>
+    </div>
+
+    <div class="titlediv" id="maintitle">
+        <h1 class="typewriter">
+            Welcome to SkaterShots NFT Collection
+        </h1>
+    </div>
+
+    <div class="infodiv-container">
+        <div class="infodiv1" id="info1">
+            <div>
+                <h4>
+                    To get started with the SkaterShots NFT Collection, connect your MetaMask wallet with the
+                    SkaterShots
+                    application below.
+                </h4>
+            </div>
+
+            <div id="wallet">
+                <button id="connectButton">
+                    <img src="images/metamask.svg.png" class="smallicon">
+                    Connect MetaMask Wallet
+                </button>
+            </div>
+        </div>
+
+        <div class="infodiv" id="info2">
+            <h4>
+                SkaterShots NFT Collection, powered by the Seoplia Ethereum Testnet Blockchain, allows users to trade
+                their
+                favourite NHL trading cards in a fully digital, decentralized manner. SkaterShots mimics the act of
+                opening
+                trading card packs, owning sports trading cards, and selling your cards for varying values depending on
+                their rarity.
+            </h4>
+        </div>
+
+        <div class="infodiv1" id="info3">
+            <h4>
+                Once connected to the SkaterShots Application, all users have the ability to:
+                <ul>
+                    <li>Open a card pack to obtain a SkaterShots NFT for the small price of 0.001 Sepolia ETH.</li>
+                    <li>View your SkaterShots NFT's, which include action shots of your favourite NHL stars.</li>
+                    <li>Sell your SkaterShots NFT's for various prices depending on their rarity. NFT's representing
+                        successful teams from the 2023-24 NHL season have a higher sell price!</li>
+                </ul>
+            </h4>
+        </div>
+    </div>
+
+    <div id="collectioncontainer" class="hidden">
+        <div class="collectionflex">
+            <div class="titlediv" id="collectiontitle">
+                <h1 class="typewriter">
+                    Your SkaterShots NFT Collection
+                </h1>
+            </div>
+
+            <div id="collection" class="collectionpage">
+                <div id="address">
+                    <img src="images/metamask.svg.png" class="icon">
+                    <p id="addressLine"></p>
+                </div>
+
+                <div class="shopdiv" id="shop">
+                    <div class="shop-title">
+                        <h2>Shop:</h2>
+                    </div>
+                    <div class="shop-item">
+                        <img src="images/pack.jpg" class="pack">
+                        <h3>Price: 0.001 Sepolia ETH</h3>
+                        <button id="buyPack">Buy SkaterShots Pack</button>
+                    </div>
+                </div>
+
+                <div class="itemsdiv" id="items">
+                    <div class="shop-title">
+                        <h2>Your NFT's:</h2>
+                    </div>
+                    <div class="item-item" id="individualitems">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
